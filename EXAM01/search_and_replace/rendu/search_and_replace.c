@@ -16,7 +16,7 @@ int	main(int argc, char **argv)
 {
 	if (argc - 1 == 3)
 	{
-		if (argv[2][1] || argv[2][1])
+		if (argv[2][1] || argv[3][1])
 		{
 			write(1, "\n", 1);
 			return (1);
