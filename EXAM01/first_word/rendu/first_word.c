@@ -18,7 +18,7 @@ int	main(int argc, char **argv)
 	{
 		while (*argv[1] == ' ' || *argv[1] == '\t')
 			argv[1]++;
-		while (!(*argv[1] == ' ' || *argv[1] == '\t'))
+		while (*argv[1] && !(*argv[1] == ' ' || *argv[1] == '\t'))
 		{
 			write(1, argv[1], 1);
 			argv[1]++;
