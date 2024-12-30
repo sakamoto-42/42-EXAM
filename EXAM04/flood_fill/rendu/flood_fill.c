@@ -6,7 +6,7 @@
 /*   By: sakamoto-42 <sakamoto-42@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/30 11:59:45 by sakamoto-42       #+#    #+#             */
-/*   Updated: 2024/12/30 13:04:04 by sakamoto-42      ###   ########.fr       */
+/*   Updated: 2024/12/30 15:05:55 by sakamoto-42      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ void	flood_fill(char **tab, t_point size, t_point begin)
 	}
 }
 
+/*
 char	**make_area(char **area, t_point size)
 {
 	char	**result;
@@ -107,3 +108,4 @@ int	main(void)
 	print_tab(area, size);
 	return (0);
 }
+*/
