@@ -15,7 +15,7 @@ unsigned int	lcm(unsigned int a, unsigned int b)
 	unsigned int	i;
 	unsigned int	j;
 
-	if (a == 0 || b == 0)
+	if (a <= 0 || a >= __INT32_MAX__ || b <= 0 || b >= __INT32_MAX__)
 		return (0);
 	i = a;
 	j = b;
